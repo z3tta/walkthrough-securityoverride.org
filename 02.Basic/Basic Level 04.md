@@ -1,4 +1,4 @@
-#### Basic Level 4 - Low level Tamper Data
+#### Basic Level 04 - Low level Tamper Data
 
 This challenge's focus is to make sure you know how to edit and execute from local scripts.
 So download this page to your computer, edit its html code.
