@@ -1,4 +1,4 @@
-#### Basic Level 8 - Low level SQL injection
+#### Basic Level 08 - Low level SQL injection
 
 This is the first challenge of securityoverride.org which confuses me.
 If you try many payloads and none of them is working, don't worry, so do I.
