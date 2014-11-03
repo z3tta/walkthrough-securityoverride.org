@@ -1,3 +1,3 @@
-#### Basic Level 9 - Cookies
+#### Basic Level 09 - Cookies
 
 Just mess around with the cookie.
