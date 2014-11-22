@@ -3,64 +3,64 @@
 Use base64_decode and rot13 rearrange PHP code. You've better do it by youself.
 
 ```php
-    session_start();
-    
-    $title = 'LEVENSHTEIN';
+session_start();
 
-    $_SERVER = $_SERVER;
-    $_SERVER2 = $_SERVER;
-    $_SERVER3 = $_SERVER2;
-    $_GET=$_GET;
-    $_u=array();
+$title = 'LEVENSHTEIN';
 
-    $_717='base64_decode';
+$_SERVER = $_SERVER;
+$_SERVER2 = $_SERVER;
+$_SERVER3 = $_SERVER2;
+$_GET=$_GET;
+$_u=array();
 
-    $_616='create_function';
+$_717='base64_decode';
 
-    $_u[0]=create_function(false,'return "SERVER_ADDRQUERY_STRINGREQUEST_METHODHTTP_ACCEPT";');
+$_616='create_function';
 
-    $_u[1]=create_function(false,'return "substr";');
+$_u[0]=create_function(false,'return "SERVER_ADDRQUERY_STRINGREQUEST_METHODHTTP_ACCEPT";');
 
-    $_u[2]=create_function('$_','return base64_decode($_);');
+$_u[1]=create_function(false,'return "substr";');
 
-    function _a(){global $_717;${'YmFzZTY0'} = 'base64_decode';return "${YmFzZTY0}";}
+$_u[2]=create_function('$_','return base64_decode($_);');
 
-    $_uu='_GET';
+function _a(){global $_717;${'YmFzZTY0'} = 'base64_decode';return "${YmFzZTY0}";}
 
-    function _____($__){return substr($__,11,12);}
+$_uu='_GET';
 
-    function _gg(){return 11;}
+function _____($__){return substr($__,11,12);}
 
-    function T(){return 12;}
+function _gg(){return 11;}
 
-    function _g(){return substr("SERVER_ADDRQUERY_STRINGREQUEST_METHODHTTP_ACCEPT",11,12);}
+function T(){return 12;}
 
-    function _____________________(){return 'X1NFUlZFUg==';}
+function _g(){return substr("SERVER_ADDRQUERY_STRINGREQUEST_METHODHTTP_ACCEPT",11,12);}
 
-    function _____oa($_){return urldecode($_);}
+function _____________________(){return 'X1NFUlZFUg==';}
 
-    function _____ao($_,$__){return preg_split($_,$__);}
+function _____oa($_){return urldecode($_);}
 
-    $_uu=$_GET;
+function _____ao($_,$__){return preg_split($_,$__);}
 
-    ${"_o_"}='_SERVER';
+$_uu=$_GET;
 
-    ${"_o_"}=$_SERVER;
+${"_o_"}='_SERVER';
 
-    ${"_g_"} = $_SERVER['QUERY_STRING'];
+${"_o_"}=$_SERVER;
 
-    $_EEE = preg_split('/(?!\\##\$\$\$uu)=/',${"_g_"});
+${"_g_"} = $_SERVER['QUERY_STRING'];
 
-    ${"_g_1"} = urldecode($_EEE[0]);
+$_EEE = preg_split('/(?!\\##\$\$\$uu)=/',${"_g_"});
 
-    ${"_g_2"} = $_GET[${"_g_1"}];
+${"_g_1"} = urldecode($_EEE[0]);
 
-    if(LEVENSHTEIN(${"_g_1"},${"_g_2"})==0){validate_result(${"_g_2"});};
+${"_g_2"} = $_GET[${"_g_1"}];
 
-    function validate_result($result){
-        if($result === 'phpinfo();'){
-            $_SESSION["solved_advanced_2"] = true;
-            header("Location:./");
-        }
+if(LEVENSHTEIN(${"_g_1"},${"_g_2"})==0){validate_result(${"_g_2"});};
+
+function validate_result($result){
+    if($result === 'phpinfo();'){
+        $_SESSION["solved_advanced_2"] = true;
+        header("Location:./");
     }
+}
 ```
